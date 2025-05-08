@@ -1,0 +1,97 @@
+[
+  {
+    "_id": "9fb4b527-382c-4191-9904-a9ed297b5c71",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:5001/register",
+    "url": "http://localhost:5001/register",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2023-04-03T05:29:21.327Z",
+    "modified": "2023-04-03T05:29:21.327Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"name\":\"ajay\",\n  \"email\":\"ajaysigiredy@.com\",\n  \"mobile\":\"7032666981\",\n  \"password\":\"1234\",\n  \"confirmPassword\":\"1234\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "e5ab9927-9817-4e5d-a559-8f4e44a81143",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:5001/login-user",
+    "url": "http://localhost:5001/login-user",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2023-04-03T05:31:11.677Z",
+    "modified": "2023-04-03T05:43:27.612Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n \"token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFqYXlzaWdpcmVkZHk3MDMyQGdtYWlsLmNvbSIsImlhdCI6MTY4MDUwMDU3NiwiZXhwIjoxNjgwNTA0MTc2fQ.kZj0s8nQPnbKdJBtkjadXGW_6BpxX9JBLY3Pa1gJyrY\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "b8e25b1f-d3e8-4725-b904-783c2c849b70",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:5001/userData",
+    "url": "http://localhost:5001/userData",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2023-04-03T05:31:43.267Z",
+    "modified": "2023-04-03T05:43:41.720Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n \"token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFqYXlzaWdpcmVkZHk3MDMyQGdtYWlsLmNvbSIsImlhdCI6MTY4MDUwMDU3NiwiZXhwIjoxNjgwNTA0MTc2fQ.kZj0s8nQPnbKdJBtkjadXGW_6BpxX9JBLY3Pa1gJyrY\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "3b5232c4-ec33-4ca5-ad6c-cbf693343638",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:5001/forgot-password",
+    "url": "http://localhost:5001/forgot-password",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2023-04-03T05:38:28.735Z",
+    "modified": "2023-04-03T09:59:53.866Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n\"email\":\"ajaysigiredy908@gmail.com\"\n \n\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "669b8415-37b6-421e-8815-4b47b08b9662",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:5001/login",
+    "url": "http://localhost:5001/login",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2023-04-03T05:49:21.279Z",
+    "modified": "2023-04-03T05:49:21.279Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n \"email\":\"ajaysigireddy7032@gmail.com\",\n \"password\":\"1234\"\n}",
+      "form": []
+    },
+    "tests": []
+  }
+]
